@@ -16,4 +16,4 @@ server:
 
 app:
   cors:
-    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:*}
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:*,https://team-planning-poker.netlify.app}

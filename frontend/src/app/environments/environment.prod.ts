@@ -1,4 +1,4 @@
 export const environment = {
-  apiUrl: 'https://YOUR-RENDER-APP.onrender.com/api',
-  wsUrl: 'https://YOUR-RENDER-APP.onrender.com/ws'
+  apiUrl: 'https://YOUR-CLOUD-RUN-URL/api',
+  wsUrl: 'https://YOUR-CLOUD-RUN-URL/ws'
 };
