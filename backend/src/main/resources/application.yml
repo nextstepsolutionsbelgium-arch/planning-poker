@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: planning-poker
+  datasource:
+    url: jdbc:h2:mem:pokerdb
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8080
+
+app:
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:*}

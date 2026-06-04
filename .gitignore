@@ -1,0 +1,10 @@
+node_modules/
+dist/
+target/
+.angular/
+*.class
+*.jar
+*.log
+.idea/
+.vscode/
+*.iml
