@@ -1,4 +1,4 @@
 export const environment = {
-  apiUrl: 'https://YOUR-CLOUD-RUN-URL/api',
-  wsUrl: 'https://YOUR-CLOUD-RUN-URL/ws'
+  apiUrl: 'https://planning-poker-zhwd.onrender.com/api',
+  wsUrl: 'https://planning-poker-zhwd.onrender.com/ws'
 };
